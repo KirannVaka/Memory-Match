@@ -1,0 +1,444 @@
+body
+{
+	font-family: 'Gloria Hallelujah', cursive;
+	background: url("Raw/bg.png") #000000 no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+
+div.starsContainer
+{
+	display: inline-block;
+	justify-content: space-evenly;
+	height: 40px;
+	margin: 0px 25px;
+}
+
+.showStar, .hideStar
+{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin: 0px 5px;
+	transition: background linear 0.2s;
+}
+
+.showStar
+{
+	background: url('images/star2.png') no-repeat center center / contain;
+}
+
+p.endLevelText
+{
+	color: #ddd8d4;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+p.remark
+{
+	color: #df6666;
+	font-size: 25px;
+}
+
+.hideStar
+{
+	background: url('images/star1.png') no-repeat center center / contain;
+}
+
+div.timmer, .moves
+{
+	display: inline-block;
+	justify-content: center;
+	text-align: center;
+	vertical-align: super;
+	font-size: 25px;
+	color: #FFFFFF;
+	margin: 0px 25px;;
+}
+
+div.scoreElementsContainer
+{
+	height: 40px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+div.gameBoardDiv
+{
+	height: auto;
+	margin:0px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background: #464646cf;
+	padding: 1rem;
+	border-radius: 10px;
+	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
+	perspective: 3000px;
+}
+
+h1
+{
+	justify-content: center;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 40px;
+}
+
+.tile, .front, .back
+{
+	width:72px;
+	height:72px;
+	padding: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.tile
+{
+	text-align:center;
+	font-weight: bolder;
+	display: flex;
+	float: left;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.5);
+	cursor: default;
+}
+
+.tile .front
+{
+	position: absolute;
+	background: #989898;
+	animation: flipInY;
+	backface-visibility: hidden;
+	animation-duration: 0.75s;
+}
+
+.tile .back
+{
+	position: absolute;
+	justify-content: center;
+	margin: 0px;
+	animation: flipInY;
+	backface-visibility: hidden;
+	animation-duration: 0.75s;
+}
+
+.tile .back .selected
+{
+	animation: pulse;
+	animation-duration: 0.75s;
+}
+
+.winContainer
+{
+	perspective: 700px;
+	margin: 15% 20%;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.win1, .win2, .win3
+{
+	text-align: center;
+	animation-name: spin, depth;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+	animation-duration: 3s;
+}
+
+.win1
+{
+	font-size: 50px;
+	color: gold;
+}
+.win2
+{
+	font-size: 25px;
+	color: white;
+}
+.win3
+{
+	font-size: 40px;
+	color: #df6666;
+}
+
+.sequenceContainer{
+	display: block;
+	height: inherit;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.buttonDiv
+{
+	display: block;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 2px;
+}
+
+.buttonLeft, .buttonRight
+{
+	font-family: 'Gloria Hallelujah', cursive;
+	border-radius: 8px;
+	background-color: #1f1f1f;
+	border: none;
+	color: #8d73b5;
+	width: 200px;
+	text-align: center;
+	font-size: 20px;
+	padding: 20px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.buttonRight span
+{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.buttonRight span:after
+{
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -2px;
+	transition: 0.5s;
+}
+
+.buttonRight:hover span
+{
+	padding-right: 25px;
+}
+
+.buttonRight:hover span:after
+{
+	opacity: 1;
+	right: 0;
+}
+
+.buttonLeft span
+{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.buttonLeft span:after
+{
+	content: '\00ab';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	left: -2px;
+	transition: 0.5s;
+}
+
+.buttonLeft:hover span
+{
+	padding-left: 25px;
+}
+
+.buttonLeft:hover span:after
+{
+	opacity: 1;
+	left: 0;
+}
+
+@media only screen and (max-width: 825px) {
+	div.starsContainer
+	{
+		height: 20px;
+		margin: 0px 12px;
+	}
+
+	.showStar, .hideStar
+	{
+		height: 20px;
+		width: 20px;
+		margin: 0px 4px;
+	}
+
+	p.endLevelText
+	{
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+	p.remark
+	{
+		font-size: 12px;
+	}
+
+	div.timmer, .moves
+	{
+		font-size: 12px;
+		margin: 0px 12px;;
+	}
+
+	div.scoreElementsContainer
+	{
+		height: 20px;
+		padding-bottom: 10px;
+	}
+
+	div.gameBoardDiv
+	{
+		padding: 10px;
+		border-radius: 6px;
+		box-shadow: 4px 5px 12px 0 rgba(46, 61, 73, 0.5);
+		perspective: 200px;
+	}
+
+	h1
+	{
+		font-size: 20px;
+	}
+
+	.tile, .front, .back
+	{
+		width:36px;
+		height:36px;
+		padding: 10px;
+		border-radius: 5px;
+	}
+
+	.tile
+	{
+		margin: 5px;
+		box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+	}
+
+	.win1
+	{
+		font-size: 12.5px;
+	}
+	.win2
+	{
+		font-size: 14.5px;
+	}
+	.win3
+	{
+		font-size: 20px;
+	}
+
+	.buttonDiv
+	{
+		margin: 0px 1px;
+	}
+
+	.buttonLeft, .buttonRight
+	{
+		border-radius: 4px;
+		width: 100px;
+		font-size: 10px;
+		padding: 10px;
+		margin: 2.5px;
+	}
+
+	.buttonRight span:after
+	{
+		right: -1px;
+	}
+
+	.buttonRight:hover span
+	{
+		padding-right: 10.5px;
+	}
+
+	.buttonLeft span:after
+	{
+		left: -1px;
+	}
+
+	.buttonLeft:hover span
+	{
+		padding-left: 10.5px;
+	}
+}
+
+/* https://stackoverflow.com/questions/30872773/css-only-3d-spinning-text */
+@keyframes spin
+{
+	from
+	{
+		transform: rotateY(0deg);
+	}
+	to
+	{
+		transform: rotateY(-360deg);
+	}
+}
+
+@keyframes depth
+{
+	0%
+	{
+		text-shadow: 0 0 white;
+	}
+	25%
+	{
+		text-shadow: 1px 0 white, 2px 0 white, 3px 0 white, 4px 0 white, 5px 0 white;
+	}
+	50%
+	{
+		text-shadow: 0 0 white;
+	}
+	75%
+	{
+		text-shadow: -1px 0 white, -2px 0 white, -3px 0 white, -4px 0 white, -5px 0 white;
+	}
+	100%
+	{
+		text-shadow: 0 0 white;
+	}
+}
+
+@keyframes flipInY
+{
+	from
+	{
+		transform: perspective(600px) rotate3d(0, 1, 0, 90deg);
+		animation-timing-function: ease-in;
+		opacity: 1;
+	}
+
+	40%
+	{
+		transform: perspective(600px) rotate3d(0, 1, 0, -40deg);
+		animation-timing-function: ease-in;
+		opacity: 0.3;
+	}
+
+	60%
+	{
+		transform: perspective(600px) rotate3d(0, 1, 0, 25deg);
+		opacity: 0.5;
+	}
+
+	80%
+	{
+		transform: perspective(600px) rotate3d(0, 1, 0, -13deg);
+		opacity: 0.8;
+	}
+
+	to
+	{
+		transform: perspective(600px);
+	}
+}

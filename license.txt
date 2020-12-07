@@ -1,0 +1,13 @@
+1. file name: star1.png; file type: Image File; License Type: CC4.0(BY-NC); Author: NY-C; Url: "http://pngimg.com/download/41532".
+2. file name: star2.png; file type: Image File; License Type: CC4.0(BY-NC); Author: NY-C; Url: "http://pngimg.com/download/41532".
+3. Name:Mario_Jumping-Mike_Koenig-989896458.wav ,File Type: Audio, Author: Mike Koenig, License Type:, URL: http://soundbible.com/1601-Mario-Jumping.html
+4. Name:Strong Punch Sound ,File Type: Audio, Author: Mike Koenig, License Type:Attribution 3.0, URL: http://soundbible.com/1773-Strong-Punch.html
+5. Name:Pop Clip In Sound ,File Type: Audio, Author: Mike Koenig, License Type:Attribution 3.0, Author: Mike Koenig URL: http://soundbible.com/1404-Pop-Clip-In.html
+6. Name:Pitch Baseball Sound ,File Type: Audio, Author: Mike Koenig, License Type:Attribution 3.0, URL: http://soundbible.com/749-Pitch-Baseball.html
+7. Name:Reverse Sound ,File Type: Audio, Author: Mike Koenig, License Type:Attribution 3.0, URL:http://soundbible.com/1121-Reverse.html
+8. Name:Upper Cut Sound ,File Type: Audio, Author: Mike Koenig, License Type:Attribution 3.0, URL:http://soundbible.com/993-Upper-Cut.html
+9. Name:Baseball Bat Swing Sound ,File Type: Audio, Author: Mike Koenig, License Type:Attribution 3.0, URL: http://soundbible.com/750-Baseball-Bat-Swing.html
+10. Name:Swooshing Sound ,File Type: Audio, Author: man, License Type:Sampling Plus 1.0, URL: http://soundbible.com/670-Swooshing.html
+11. Name:5_Sec_Crowd_Cheer-Mike_Koenig-1562033255.wav, File Type: Audio, License type: Attribution 3.0, Author: Mike Koenig, URL: http://soundbible.com/1700-5-Sec-Crowd-Cheer.html
+12. Name:Balloon Squeaky Sound.wav, File Type: Audio, License type: Attribution 3.0, Author: Mike Koenig, URL: http://soundbible.com/1111-Balloon-Squeaky.html
+13. Name:Stretching Growing Sound.wav, File Type: Audio, License type: Attribution 3.0, Author: Mike Koenig, URL: http://soundbible.com/1700-5-Sec-Crowd-Cheer.html 
