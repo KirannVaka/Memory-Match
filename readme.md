@@ -4,7 +4,7 @@ SID - 217396518
 
 ###Project Details:
 ##Project Name - Memory Game
--The memory game is a indulging process that will stimulate your memory power. The game has several tiles generated on the screen. Each tile has an object that is hidden, among these hidden objects there will pairs that are similar. When an player clicks on a tile, the tile will flip and the object will be revealed. If the player successfully selects tiles with similar objects one after the other, a match will be made and the tiles will remain revealed for the rest of the game, otherwise both tiles will be flipped back.
+-The memory game is a indulging process that will stimulate your memory power. The game has several tiles generated on the screen. Each tile has an object that is hidden, among these hidden objects there are pairs. When an player clicks on a tile, the tile will flip and the object will be revealed. If the player successfully selects tiles with similar objects one after the other, a match will be made and the tiles will remain revealed for the rest of the game, otherwise both tiles will be flipped back.
 
 -For my game all odd levels, such as 1,3,5..., are going to have pair of tiles similar chemical element its symbol and name.
 -All the odd levels have the pairing tiles with symbol in one tile and name on the other. If the symbol and the name are a match, then a match is said to be succefully made.
