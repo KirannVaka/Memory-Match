@@ -1,7 +1,3 @@
-Student Details:
-Name - Sai Kiran Reddy Vaka
-SID - 217396518
-
 ###Project Details:
 ##Project Name - Memory Game
 -The memory game is a indulging process that will stimulate your memory power. The game has several tiles generated on the screen. Each tile has an object that is hidden, among these hidden objects there are pairs. When an player clicks on a tile, the tile will flip and the object will be revealed. If the player successfully selects tiles with similar objects one after the other, a match will be made and the tiles will remain revealed for the rest of the game, otherwise both tiles will be flipped back.
