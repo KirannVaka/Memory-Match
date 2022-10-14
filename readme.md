@@ -50,9 +50,8 @@
 
 
 ## Minimum Requirements
-1.System installed with OS.
-
-2.WEb browser compatible with HTML5.
+1. System installed with OS.
+2. WEb browser compatible with HTML5.
 
 
 ## Installing
