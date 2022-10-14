@@ -48,9 +48,12 @@
 - 14 levels are created in this set of insructions.
 - The array with values is stored in a refrence array for odd levels and even levels.
 
-## Minimum Requirements:
+
+## Minimum Requirements
 1.System installed with OS.
+
 2.WEb browser compatible with HTML5.
+
 
 ## Installing
 Open Index HTML document in web browser.
